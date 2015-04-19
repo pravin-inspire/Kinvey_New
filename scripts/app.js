@@ -106,7 +106,7 @@
         node.find('[data-placeholder="index"]').text(index + 1);
         node.find('[data-placeholder="title"]').text(book.title);
         node.find('[data-placeholder="author"]').text(book.author);
-        node.find('[data-placeholder="price"]').text(book.Price);
+        node.find('[data-placeholder="price"]').text(book.price);
         node.find('button').attr('data-book', book._id);
 
         return node.html();
